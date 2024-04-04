@@ -38,11 +38,11 @@ onMounted(apply)
   <div class="card">
 
     <van-cell-group inset>
+      <van-field v-model="unit" label="unit" />
       <van-field v-model="widthFrom" label="width from" />
       <van-field v-model="widthTo" label="width to" />
       <van-field v-model="heightFrom" label="height from" />
       <van-field v-model="heightTo" label="height to" />
-      <van-field v-model="unit" label="unit" />
       <van-field v-model="opacityFrom" label="opacity from" />
       <van-field v-model="opacityTo" label="opacity to" />
     </van-cell-group>
